@@ -34,13 +34,28 @@ This repository will continue to grow as more datasets and analyses are added.
 ## 📂 Repository Structure
 
 ```text
+## 📂 Repository Structure
+
+```text
 EDA-DATASCIENCE/
 │
-├── Titanic/
-│   ├── Titanic.ipynb
+├── NEPSE-EDA/                 # EDA projects on NEPSE stock market data
+│   │
+│   ├── NABIL/
+│   │   ├── NABILONEYEARCSV.csv
+│   │   └── NEPSE(NABIL).ipynb
+│   │
+│   └── NLIC/
+│       ├── NLICONEYEARCSV.csv
+│       └── NEPSE(NLIC).ipynb
+│
+├── TITANIC-EDA/               # Exploratory Data Analysis on the Titanic dataset
+│   ├── DATA.csv
+│   ├── EDAtitanic.ipynb
 │   └── README.md
 │
-└── README.md
+├── README.md                  # Repository documentation
+└── requirements.txt           # Python dependencies
 ```
 
 ---
