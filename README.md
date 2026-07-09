@@ -1,37 +1,42 @@
 # 📊 EDA-DATASCIENCE
 
-A repository dedicated to **Exploratory Data Analysis (EDA)** using Python. This project documents my journey of analyzing real-world datasets, understanding their structure, and extracting meaningful insights through data exploration and statistical analysis.
+A collection of **Exploratory Data Analysis (EDA)** projects performed on real-world datasets using **Python**. This repository showcases my learning journey in data analysis by exploring datasets from different domains, including finance, housing, and transportation.
+
+Each project focuses on understanding the dataset, cleaning and preprocessing data, performing statistical analysis, visualizing patterns, and extracting meaningful insights before applying advanced machine learning techniques.
 
 ---
 
 ## 📌 About
 
-The purpose of this repository is to build a collection of EDA projects on different datasets. Each project focuses on exploring, cleaning, and visualizing data to identify patterns and gain meaningful insights before applying machine learning models.
+This repository serves as my personal collection of EDA projects while learning **Data Science** and **Artificial Intelligence**. The goal is to strengthen my understanding of data preprocessing, analysis, and visualization through hands-on practice with real-world datasets.
 
-This repository will continue to grow as more datasets and analyses are added.
+As I continue learning, I will regularly add new datasets and analyses to expand this repository.
 
 ---
 
 ## 🎯 Objectives
 
-* Practice Exploratory Data Analysis (EDA)
-* Improve data cleaning and preprocessing skills
-* Understand different types of datasets
-* Discover trends and patterns through visualization
-* Analyze financial and real-world datasets
-* Build a strong Data Science portfolio
+- Practice Exploratory Data Analysis (EDA)
+- Improve data preprocessing and cleaning skills
+- Analyze datasets from multiple domains
+- Learn statistical techniques for data analysis
+- Create meaningful visualizations
+- Build a strong Data Science portfolio
+- Prepare datasets for Machine Learning
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Google Colab
-* Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SciPy
+- Scikit-learn
+- Google Colab
+- Jupyter Notebook
 
 ---
 
@@ -40,32 +45,35 @@ This repository will continue to grow as more datasets and analyses are added.
 ```text
 EDA-DATASCIENCE/
 │
+├── HOUSING-EDA/
+│   ├── house.csv
+│   ├── Housing_EDA.ipynb
+│   └── README.md
+│
 ├── NEPSE-EDA/
+│   │
+│   ├── Stock-Comparison/
+│   │   ├── Stock_Comparison_EDA.ipynb
+│   │   └── README.md
 │   │
 │   ├── NABIL/
 │   │   ├── NABILONEYEARCSV.csv
-│   │   ├── EDAnabil.ipynb
+│   │   ├── NABIL_EDA.ipynb
 │   │   └── README.md
 │   │
 │   ├── NLIC/
 │   │   ├── NLICONEYEARCSV.csv
-│   │   ├── EDAnlic.ipynb
+│   │   ├── NLIC_EDA.ipynb
 │   │   └── README.md
 │   │
-│   ├── NTC/
-│   │   ├── NTCONEYEARCSV.csv
-│   │   ├── NEPSE(NTC).ipynb
-│   │   └── README.md
-│   │
-│   ├── Stock-Comparison/
-│   │   ├── NEPSE_Stock_Comparison.ipynb
-│   │   └── README.md
-│   │
-│   └── README.md
+│   └── NTC/
+│       ├── NTCONEYEARCSV.csv
+│       ├── NTC_EDA.ipynb
+│       └── README.md
 │
 ├── TITANIC-EDA/
 │   ├── DATA.csv
-│   ├── EDAtitanic.ipynb
+│   ├── Titanic_EDA.ipynb
 │   └── README.md
 │
 ├── README.md
@@ -74,121 +82,109 @@ EDA-DATASCIENCE/
 
 ---
 
-## 📁 Projects
+## 📁 Completed Projects
 
 | Project | Status | Description |
 |----------|--------|-------------|
-| 📈 NEPSE EDA | ✅ Completed | Exploratory Data Analysis of NABIL, NLIC, and NTC historical stock data including data cleaning, closing price analysis, moving averages (MA20 & MA50), and volatility analysis. |
-| 📊 NEPSE Stock Comparison | ✅ Completed | Comparative analysis of multiple NEPSE-listed companies using closing price trends, moving averages, and volatility visualization. |
-| 🚢 Titanic EDA | ✅ Completed | Exploratory Data Analysis including dataset inspection, data cleaning, statistical analysis, and visualization of passenger survival patterns. |
-
-> More EDA projects will be added over time.
-
----
-
-## 📊 Skills Demonstrated
-
-* Data Cleaning
-* Data Preprocessing
-* Dataset Inspection
-* Missing Value Handling
-* Data Filtering
-* Boolean Indexing
-* Grouping & Aggregation
-* Statistical Analysis
-* Data Visualization
-* Time Series Analysis
-* Moving Average Analysis (MA20 & MA50)
-* Volatility Analysis
-* Comparative Data Analysis
-* Exploratory Data Analysis (EDA)
+| 🚢 Titanic EDA | ✅ Completed | Explored passenger information, performed filtering, and analyzed survival statistics. |
+| 🏠 Housing Prices EDA | ✅ Completed | Handled missing values, detected outliers, visualized distributions, and analyzed feature correlations. |
+| 📈 NEPSE - NABIL | ✅ Completed | Exploratory analysis of one-year historical stock data for NABIL Bank. |
+| 📈 NEPSE - NLIC | ✅ Completed | Exploratory analysis of one-year historical stock data for Nepal Life Insurance Company. |
+| 📈 NEPSE - NTC | ✅ Completed | Exploratory analysis of one-year historical stock data for Nepal Telecom. |
+| 📊 NEPSE Stock Comparison | ✅ Completed | Compared the normalized stock performance of NABIL, NLIC, and NTC using historical market data. |
 
 ---
 
-## 📈 Key Analyses
+## 📊 EDA Workflow
 
-### 📊 NEPSE EDA
+Most projects in this repository follow the following workflow:
 
+1. Data Collection
+2. Data Loading
+3. Dataset Inspection
+4. Data Cleaning
+5. Missing Value Handling
+6. Data Type Conversion
+7. Descriptive Statistics
+8. Outlier Detection
+9. Data Transformation
+10. Exploratory Analysis
+11. Correlation Analysis
+12. Data Visualization
+13. Insight Generation
+
+---
+
+## 📚 Skills Demonstrated
+
+- Data Loading
 - Data Cleaning
-- Closing Price Trend Analysis
-- 20-Day Moving Average (MA20)
-- 50-Day Moving Average (MA50)
-- Volatility Analysis
-- Historical Stock Performance Visualization
-
-### 📊 Stock Comparison
-
-- Closing Price Comparison
-- Moving Average Comparison
-- Volatility Comparison
-- Trend Analysis Across Multiple Stocks
-
-### 🚢 Titanic EDA
-
-- Data Cleaning
-- Missing Value Analysis
-- Survival Analysis
-- Feature Distribution
+- Missing Value Handling
+- Data Transformation
+- Outlier Detection (IQR & Z-Score)
+- Boolean Indexing
+- Grouping & Aggregation
 - Correlation Analysis
+- Financial Data Analysis
+- Housing Data Analysis
+- Statistical Analysis
 - Data Visualization
+- Exploratory Data Analysis (EDA)
+- Data Interpretation
 
 ---
 
 ## 🚀 Future Plans
 
-This repository will continue expanding with EDA projects from various domains, including:
+This repository will continue to expand with EDA projects from various domains, including:
 
-* Healthcare
-* Finance
-* Education
-* Sports
-* Business
-* E-commerce
-* Entertainment
-
-Future improvements may include:
-
-* Interactive Dashboards (Plotly)
-* Candlestick Charts
-* RSI & MACD Analysis
-* Bollinger Bands
-* Correlation Heatmaps
-* Feature Engineering
-* Machine Learning
-* Time Series Forecasting
+- Healthcare
+- Retail & E-commerce
+- Education
+- Sports Analytics
+- Climate & Weather
+- Finance
+- Social Media
+- Machine Learning Preprocessing
+- Feature Engineering
+- Interactive Dashboards
 
 ---
 
 ## 📄 Dataset Credits
 
-### 📈 NEPSE Data
+The datasets used in this repository are obtained from publicly available sources and are used strictly for **educational**, **research**, and **portfolio** purposes.
 
-Historical stock market datasets were obtained from **Nepse Alpha**.
-
-**Source:** https://nepsealpha.com/nepse-data
-
-### 🚢 Titanic Dataset
-
-The Titanic dataset is a publicly available dataset commonly used for learning data analysis and machine learning.
-
-Each project includes its own `README.md` with additional dataset details where applicable.
-
-All datasets belong to their respective owners and are used solely for educational and portfolio purposes.
+Each project contains its own **README.md** with the original dataset source and appropriate attribution.
 
 ---
 
 ## 🤝 Contributions
 
-Suggestions and feedback are always welcome. Feel free to fork this repository, open an issue, or submit a pull request.
+Suggestions, feedback, and improvements are always welcome.
+
+Feel free to:
+
+- Fork this repository
+- Open an Issue
+- Submit a Pull Request
 
 ---
 
 ## ⭐ Support
 
-If you find this repository helpful, consider giving it a ⭐ on GitHub. It motivates me to continue learning and sharing more Data Science projects.
+If you found this repository helpful or interesting, consider giving it a **⭐ Star** on GitHub. It motivates me to continue learning and sharing more Data Science projects.
 
 ---
 
-## 📬 Connect
+## 👨‍💻 Author
 
-Thank you for visiting my repository. Stay tuned as more Exploratory Data Analysis projects are added!
+**Sumit SAH**
+
+Computer Science Undergraduate from Nepal 🇳🇵
+
+Currently learning **Python**, **Data Science**, **Artificial Intelligence**, and **Machine Learning** through practical, project-based learning.
+
+---
+
+**Happy Learning! 📊🚀**
