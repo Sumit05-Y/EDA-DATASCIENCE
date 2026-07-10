@@ -1,6 +1,5 @@
-# NLIC Stock Price Predictor
+#  Stock Price Predictor
 
-A Python-based financial data pipeline that analyzes historical stock data for **Nepal Life Insurance Company (NLIC)** to predict the next day's closing behavior. 
 
 This project implements **feature engineering for dual-target modeling**:
 1. **Regression Task:** Predicting the exact numerical price of the next day's close in Nepalese Rupees (NPR).
