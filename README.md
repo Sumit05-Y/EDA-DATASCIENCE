@@ -75,6 +75,15 @@ EDA-DATASCIENCE/
 │   ├── DATA.csv
 │   ├── Titanic_EDA.ipynb
 │   └── README.md
+│ 
+├── z-LINEAR-REGRESSION/
+│   ├──Nabil(LINEAR).ipynb
+│   ├──README.md
+│
+├── z-LOGISTIC-REGRESION/
+│   ├──NABIL(LOGISITiC).ipynb
+│   ├──README.md
+│
 │
 ├── README.md
 └── requirements.txt
@@ -92,6 +101,8 @@ EDA-DATASCIENCE/
 | 📈 NEPSE - NLIC | ✅ Completed | Exploratory analysis of one-year historical stock data for Nepal Life Insurance Company. |
 | 📈 NEPSE - NTC | ✅ Completed | Exploratory analysis of one-year historical stock data for Nepal Telecom. |
 | 📊 NEPSE Stock Comparison | ✅ Completed | Compared the normalized stock performance of NABIL, NLIC, and NTC using historical market data. |
+| 📉 Linear Regression | ✅ Completed | Implemented a linear regression model using NABIL stock data to predict price trends. |
+| 🧬 Logistic Regression | ✅ Completed | Implemented a logistic regression model using NABIL stock data for classification analysis. |
 
 ---
 
