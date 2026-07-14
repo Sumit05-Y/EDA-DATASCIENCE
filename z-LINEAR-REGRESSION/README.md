@@ -2,7 +2,7 @@
 
 This folder contains multiple **Linear Regression** projects built using different real-world datasets. Each notebook follows a complete machine learning workflow—from data preprocessing and feature engineering to model training, evaluation, and prediction.
 
-The purpose of this collection is to strengthen the understanding of regression techniques by applying **Linear Regression** across datasets from different domains.
+The purpose of this collection is to strengthen the understanding of regression techniques by applying **Linear Regression** across datasets from different domains, including **housing** and **financial stock market data**.
 
 ---
 
@@ -11,16 +11,17 @@ The purpose of this collection is to strengthen the understanding of regression 
 The primary goals of these projects are to:
 
 - Understand the fundamentals of Linear Regression
-- Build regression models on real-world datasets
+- Build regression models using real-world datasets
 - Practice data preprocessing and feature engineering
 - Evaluate model performance using regression metrics
-- Compare how Linear Regression performs across different datasets
+- Compare model performance across different datasets
+- Learn how Linear Regression can be applied to both housing and stock price prediction problems
 
 ---
 
 # 🛠 Machine Learning Workflow
 
-Each notebook follows a similar workflow:
+Each notebook follows a similar workflow.
 
 ## 1. Data Loading
 
@@ -52,16 +53,16 @@ Each notebook follows a similar workflow:
 
 Depending on the dataset, this may include:
 
-- Encoding categorical variables
-- Creating new features
+- Creating moving average features (for stock datasets)
+- Encoding categorical variables (when required)
 - Removing unnecessary columns
-- Feature selection
+- Selecting important features
 
 ---
 
 ## 5. Feature Scaling
 
-Numerical features are standardized using **StandardScaler** when appropriate to improve model performance.
+Numerical features are standardized using **StandardScaler** where appropriate to improve model performance.
 
 ---
 
@@ -78,7 +79,8 @@ A **Linear Regression** model is trained to learn the relationship between input
 Example prediction tasks include:
 
 - 🏠 House Price Prediction
-- 📈 Stock Closing Price Prediction
+- 📈 NABIL Stock Closing Price Prediction
+- 📊 NLIC Stock Closing Price Prediction
 
 ---
 
@@ -97,10 +99,11 @@ These metrics help measure prediction accuracy and overall model performance.
 
 # 📂 Current Projects
 
-| Dataset | Problem | Status |
-|----------|---------|--------|
-| Housing Dataset | House Price Prediction | ✅ Completed |
-| NABIL Stock Dataset | Stock Closing Price Prediction | ✅ Completed |
+| Notebook | Dataset | Prediction Task | Status |
+|-----------|---------|-----------------|--------|
+| **HOUSING(Linear).ipynb** | Ames Housing Dataset | House Price Prediction | ✅ Completed |
+| **Nabil(LINEAR).ipynb** | NABIL Stock Dataset | Next-Day Stock Closing Price Prediction | ✅ Completed |
+| **Nlic(LINEAR).ipynb** | NLIC Stock Dataset | Next-Day Stock Closing Price Prediction | ✅ Completed |
 
 More regression projects will be added over time.
 
@@ -108,12 +111,13 @@ More regression projects will be added over time.
 
 # 📁 Project Structure
 
-```
+```text
 z-LINEAR-REGRESSION/
 │
 ├── README.md
 ├── HOUSING(Linear).ipynb
 ├── Nabil(LINEAR).ipynb
+├── Nlic(LINEAR).ipynb
 └── Future Linear Regression Projects
 ```
 
@@ -137,15 +141,27 @@ Through these projects, the following concepts are explored:
 
 - Linear Regression
 - Regression Analysis
+- Predictive Modeling
 - Data Preprocessing
 - Exploratory Data Analysis (EDA)
 - Feature Engineering
 - Feature Scaling
+- Train-Test Split
 - Model Evaluation
-- Predictive Analytics
+- Stock Price Prediction
+- House Price Prediction
 
 ---
 
 # 🚀 Future Work
 
-This collection will continue to grow with additional Linear Regression projects using diverse real-world datasets. Future additions may include datasets from domains such as finance, healthcare, retail, economics, and environmental science, enabling comparison of model performance across different regression problems.
+This collection will continue to grow with additional Linear Regression projects using diverse real-world datasets. Planned additions include datasets from domains such as:
+
+- 💰 Finance
+- 🏥 Healthcare
+- 🛒 Retail
+- 🌾 Agriculture
+- 🌦 Weather & Climate
+- 🏭 Manufacturing
+
+Adding more projects will provide opportunities to compare Linear Regression performance across different regression problems while strengthening practical machine learning skills.

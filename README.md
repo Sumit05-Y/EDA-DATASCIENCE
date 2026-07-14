@@ -80,6 +80,7 @@ EDA-DATASCIENCE/
 ├── z-LINEAR-REGRESSION/
 │   ├── HOUSING(Linear).ipynb
 │   ├── Nabil(LINEAR).ipynb
+│   ├── Nlic(LINEAR).ipynb
 │   └── README.md
 │
 ├── z-LOGISTIC-REGRESSION/
@@ -110,8 +111,9 @@ EDA-DATASCIENCE/
 
 | Project | Status | Description |
 |----------|--------|-------------|
-| 📈 NABIL Stock Price Prediction | ✅ Completed | Predicted continuous stock prices using Linear Regression. |
 | 🏠 Housing Price Prediction | ✅ Completed | Predicted house prices using multiple numerical features. |
+| 📈 NABIL Stock Price Prediction | ✅ Completed | Predicted the next-day closing price of NABIL stock using Linear Regression. |
+| 📊 NLIC Stock Price Prediction | ✅ Completed | Predicted the next-day closing price of NLIC stock using Linear Regression. |
 
 ### 📊 Logistic Regression
 
@@ -131,14 +133,15 @@ Most machine learning projects follow a consistent workflow:
 3. Dataset Inspection
 4. Data Cleaning
 5. Missing Value Handling
-6. Feature Engineering
-7. Data Transformation
-8. Feature Scaling
-9. Train-Test Split
-10. Model Training
-11. Prediction
-12. Model Evaluation
-13. Result Interpretation
+6. Exploratory Data Analysis (EDA)
+7. Feature Engineering
+8. Data Transformation
+9. Feature Scaling
+10. Train-Test Split
+11. Model Training
+12. Prediction
+13. Model Evaluation
+14. Result Interpretation
 
 ---
 
@@ -149,12 +152,12 @@ Most machine learning projects follow a consistent workflow:
 - Data Cleaning
 - Missing Value Handling
 - Data Transformation
+- Exploratory Data Analysis (EDA)
 - Outlier Detection
-- Feature Engineering
 - Correlation Analysis
 - Statistical Analysis
+- Feature Engineering
 - Data Visualization
-- Exploratory Data Analysis
 
 ### Machine Learning
 
@@ -171,7 +174,7 @@ Most machine learning projects follow a consistent workflow:
 
 ## 🚀 Future Plans
 
-This repository will continue expanding with additional Machine Learning and Data Science projects, including:
+This repository will continue expanding with additional Data Science and Machine Learning projects.
 
 ### Machine Learning
 
@@ -207,7 +210,7 @@ This repository will continue expanding with additional Machine Learning and Dat
 
 The datasets used in this repository are obtained from publicly available sources and are used strictly for **educational**, **research**, and **portfolio** purposes.
 
-Each project contains its own **README.md** with dataset information and project-specific documentation.
+Each project contains its own **README.md** with dataset information, methodology, and project-specific documentation.
 
 ---
 
