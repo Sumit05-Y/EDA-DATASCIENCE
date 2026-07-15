@@ -1,16 +1,18 @@
 # 📊 EDA-DATASCIENCE
 
-A collection of **Data Science** and **Machine Learning** projects built using **Python**. This repository showcases my learning journey through hands-on projects involving **Exploratory Data Analysis (EDA)**, **Linear Regression**, and **Logistic Regression** on real-world datasets from domains such as finance, housing, and transportation.
+A collection of **Data Science** and **Machine Learning** projects built using **Python**. This repository showcases my learning journey through hands-on projects involving **Exploratory Data Analysis (EDA)**, **Regression**, and **Classification** using real-world datasets from domains such as finance, healthcare, housing, and transportation.
 
-Each project focuses on understanding the dataset, cleaning and preprocessing data, visualizing patterns, extracting insights, and building predictive machine learning models.
+Each project focuses on understanding datasets, cleaning and preprocessing data, visualizing patterns, extracting insights, and building predictive machine learning models using industry-standard Python libraries.
 
 ---
 
 ## 📌 About
 
-This repository serves as my personal collection of Data Science projects while learning **Python**, **Data Science**, **Machine Learning**, and **Artificial Intelligence**.
+This repository serves as my personal collection of Data Science and Machine Learning projects while learning **Python**, **Data Science**, **Machine Learning**, and **Artificial Intelligence**.
 
-The projects are organized into different sections, beginning with Exploratory Data Analysis (EDA) and gradually progressing toward supervised machine learning algorithms. As I continue learning, more algorithms, datasets, and real-world projects will be added.
+The projects are organized from foundational **Exploratory Data Analysis (EDA)** to supervised machine learning algorithms such as **Linear Regression**, **Logistic Regression**, **Decision Trees**, **Random Forests**, **Support Vector Machines (SVM)**, and **K-Nearest Neighbors (KNN)**.
+
+As I continue learning, this repository will expand with more advanced machine learning, deep learning, and real-world analytical projects.
 
 ---
 
@@ -21,6 +23,7 @@ The projects are organized into different sections, beginning with Exploratory D
 - Analyze datasets from multiple domains
 - Build and evaluate Machine Learning models
 - Learn feature engineering techniques
+- Compare different machine learning algorithms
 - Create meaningful visualizations
 - Strengthen regression and classification concepts
 - Build a strong Data Science portfolio
@@ -77,10 +80,15 @@ EDA-DATASCIENCE/
 │   ├── Titanic_EDA.ipynb
 │   └── README.md
 │
+├── CLASSIFICATION-ALGORITHMS/
+│   ├── BREASTCANCER.ipynb
+│   ├── NABIL.ipynb
+│   └── README.md
+│
 ├── z-LINEAR-REGRESSION/
 │   ├── HOUSING(Linear).ipynb
-│   ├── Nabil(LINEAR).ipynb
-│   ├── Nlic(LINEAR).ipynb
+│   ├── NABIL(LINEAR).ipynb
+│   ├── NLIC(LINEAR).ipynb
 │   └── README.md
 │
 ├── z-LOGISTIC-REGRESSION/
@@ -94,37 +102,50 @@ EDA-DATASCIENCE/
 
 ---
 
-## 📁 Completed Projects
+# 📁 Completed Projects
 
-### 📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
 | Project | Status | Description |
 |----------|--------|-------------|
 | 🚢 Titanic EDA | ✅ Completed | Explored passenger information, handled missing values, and analyzed survival statistics. |
-| 🏠 Housing Prices EDA | ✅ Completed | Performed data cleaning, outlier detection, feature analysis, and visualization. |
+| 🏠 Housing Prices EDA | ✅ Completed | Performed data cleaning, feature analysis, outlier detection, and visualization. |
 | 📈 NEPSE - NABIL | ✅ Completed | Exploratory analysis of one-year historical stock data for NABIL Bank. |
 | 📈 NEPSE - NLIC | ✅ Completed | Exploratory analysis of one-year historical stock data for Nepal Life Insurance Company. |
 | 📈 NEPSE - NTC | ✅ Completed | Exploratory analysis of one-year historical stock data for Nepal Telecom. |
-| 📊 NEPSE Stock Comparison | ✅ Completed | Compared the normalized performance of multiple NEPSE stocks. |
+| 📊 NEPSE Stock Comparison | ✅ Completed | Compared normalized stock performance of multiple NEPSE companies. |
 
-### 📉 Linear Regression
+---
+
+## 📉 Linear Regression
 
 | Project | Status | Description |
 |----------|--------|-------------|
 | 🏠 Housing Price Prediction | ✅ Completed | Predicted house prices using multiple numerical features. |
 | 📈 NABIL Stock Price Prediction | ✅ Completed | Predicted the next-day closing price of NABIL stock using Linear Regression. |
-| 📊 NLIC Stock Price Prediction | ✅ Completed | Predicted the next-day closing price of NLIC stock using Linear Regression. |
+| 📈 NLIC Stock Price Prediction | ✅ Completed | Predicted the next-day closing price of NLIC stock using Linear Regression. |
 
-### 📊 Logistic Regression
+---
+
+## 📊 Logistic Regression
 
 | Project | Status | Description |
 |----------|--------|-------------|
-| 📈 NABIL Stock Movement Prediction | ✅ Completed | Classified whether the stock price would move up or down. |
+| 📈 NABIL Stock Movement Prediction | ✅ Completed | Predicted whether the next-day stock price would move up or down. |
 | 🚢 Titanic Survival Prediction | ✅ Completed | Predicted passenger survival using Logistic Regression. |
 
 ---
 
-## 🔄 Machine Learning Workflow
+## 🌳 Classification Algorithms
+
+| Project | Status | Description |
+|----------|--------|-------------|
+| 🩺 Breast Cancer Classification | ✅ Completed | Compared Decision Tree, Random Forest, SVM, and KNN for classifying tumors as malignant or benign. |
+| 📈 NABIL Stock Movement Classification | ✅ Completed | Compared Decision Tree, Random Forest, SVM, and KNN to classify next-day NABIL stock movement. |
+
+---
+
+# 🔄 Machine Learning Workflow
 
 Most machine learning projects follow a consistent workflow:
 
@@ -145,9 +166,9 @@ Most machine learning projects follow a consistent workflow:
 
 ---
 
-## 📚 Skills Demonstrated
+# 📚 Skills Demonstrated
 
-### Data Analysis
+## Data Analysis
 
 - Data Cleaning
 - Missing Value Handling
@@ -163,41 +184,51 @@ Most machine learning projects follow a consistent workflow:
 
 - Linear Regression
 - Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
 - Regression Analysis
 - Binary Classification
 - Feature Scaling
+- Cross Validation
+- Feature Importance Analysis
+- Confusion Matrix
+- Classification Report
 - Model Training
 - Model Evaluation
 - Predictive Analytics
 
 ---
 
-## 🚀 Future Plans
+# 🚀 Future Plans
 
-This repository will continue expanding with additional Data Science and Machine Learning projects.
+This repository will continue expanding with more advanced Data Science and Machine Learning projects.
 
-### Machine Learning
+## Machine Learning
 
-- Decision Tree
-- Random Forest
-- Support Vector Machine (SVM)
-- K-Nearest Neighbors (KNN)
 - Naive Bayes
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- CatBoost
 - K-Means Clustering
+- Hierarchical Clustering
 - DBSCAN
 - Principal Component Analysis (PCA)
 - Ensemble Learning
 
-### Deep Learning
+## Deep Learning
 
 - Artificial Neural Networks (ANN)
 - Convolutional Neural Networks (CNN)
 - Recurrent Neural Networks (RNN)
+- Transfer Learning
 
-### Data Science
+## Data Science
 
-- Feature Engineering
 - Time Series Forecasting
+- Recommendation Systems
 - Interactive Dashboards
 - Healthcare Analytics
 - Retail Analytics
@@ -206,15 +237,15 @@ This repository will continue expanding with additional Data Science and Machine
 
 ---
 
-## 📄 Dataset Credits
+# 📄 Dataset Credits
 
 The datasets used in this repository are obtained from publicly available sources and are used strictly for **educational**, **research**, and **portfolio** purposes.
 
-Each project contains its own **README.md** with dataset information, methodology, and project-specific documentation.
+Each project contains its own **README.md** with dataset information, methodology, workflow, and project-specific documentation.
 
 ---
 
-## 🤝 Contributions
+# 🤝 Contributions
 
 Suggestions, feedback, and improvements are always welcome.
 
@@ -226,13 +257,13 @@ Feel free to:
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
 If you found this repository helpful or interesting, consider giving it a **⭐ Star** on GitHub. It motivates me to continue learning and share more Data Science and Machine Learning projects.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Sumit Sah**
 
@@ -242,4 +273,4 @@ Currently learning **Python**, **Data Science**, **Machine Learning**, and **Art
 
 ---
 
-**Happy Learning! 📊🤖🚀**
+> **"Learning by building, improving through practice, and growing one project at a time."** 🚀
