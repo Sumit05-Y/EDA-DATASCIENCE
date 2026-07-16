@@ -1,22 +1,31 @@
 # 📊 EDA-DATASCIENCE
 
-A collection of **Data Science** and **Machine Learning** projects built using **Python**. This repository showcases my learning journey through hands-on projects involving **Exploratory Data Analysis (EDA)**, **Regression**, and **Classification** using real-world datasets from domains such as finance, healthcare, housing, and transportation.
+A collection of **Data Science** and **Machine Learning** projects built using **Python**. This repository showcases my learning journey through hands-on projects involving **Exploratory Data Analysis (EDA)**, **Regression**, **Classification**, and **Unsupervised Learning** using real-world datasets from domains such as finance, healthcare, housing, retail, and transportation.
 
-Each project focuses on understanding datasets, cleaning and preprocessing data, visualizing patterns, extracting insights, and building predictive machine learning models using industry-standard Python libraries.
+Each project focuses on understanding datasets, cleaning and preprocessing data, visualizing patterns, extracting insights, and building machine learning models using industry-standard Python libraries.
 
 ---
 
-## 📌 About
+# 📌 About
 
 This repository serves as my personal collection of Data Science and Machine Learning projects while learning **Python**, **Data Science**, **Machine Learning**, and **Artificial Intelligence**.
 
-The projects are organized from foundational **Exploratory Data Analysis (EDA)** to supervised machine learning algorithms such as **Linear Regression**, **Logistic Regression**, **Decision Trees**, **Random Forests**, **Support Vector Machines (SVM)**, and **K-Nearest Neighbors (KNN)**.
+The projects are organized from foundational **Exploratory Data Analysis (EDA)** to both **Supervised** and **Unsupervised Machine Learning** algorithms, including:
+
+- Linear Regression
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- K-Means Clustering
+- Principal Component Analysis (PCA)
 
 As I continue learning, this repository will expand with more advanced machine learning, deep learning, and real-world analytical projects.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Objectives
 
 - Practice Exploratory Data Analysis (EDA)
 - Improve data preprocessing and cleaning skills
@@ -24,13 +33,14 @@ As I continue learning, this repository will expand with more advanced machine l
 - Build and evaluate Machine Learning models
 - Learn feature engineering techniques
 - Compare different machine learning algorithms
+- Apply unsupervised learning techniques
 - Create meaningful visualizations
-- Strengthen regression and classification concepts
+- Strengthen regression, classification, and clustering concepts
 - Build a strong Data Science portfolio
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -44,7 +54,7 @@ As I continue learning, this repository will expand with more advanced machine l
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 EDA-DATASCIENCE/
@@ -55,7 +65,6 @@ EDA-DATASCIENCE/
 │   └── README.md
 │
 ├── NEPSE-EDA/
-│   │
 │   ├── Stock-Comparison/
 │   │   ├── Stock_Comparison_EDA.ipynb
 │   │   └── README.md
@@ -96,6 +105,10 @@ EDA-DATASCIENCE/
 │   ├── TITANIC(LOGISTIC).ipynb
 │   └── README.md
 │
+├── zz-CLUSTERING&PCA/
+│   ├── MallCustomerSegmentation.ipynb
+│   └── README.md
+│
 ├── README.md
 └── requirements.txt
 ```
@@ -131,7 +144,7 @@ EDA-DATASCIENCE/
 
 | Project | Status | Description |
 |----------|--------|-------------|
-| 📈 NABIL Stock Movement Prediction | ✅ Completed | Predicted whether the next-day stock price would move up or down. |
+| 📈 NABIL Stock Movement Prediction | ✅ Completed | Predicted whether the next-day stock price would move up or down using Logistic Regression. |
 | 🚢 Titanic Survival Prediction | ✅ Completed | Predicted passenger survival using Logistic Regression. |
 
 ---
@@ -145,9 +158,17 @@ EDA-DATASCIENCE/
 
 ---
 
+## 🔍 Clustering & Principal Component Analysis (PCA)
+
+| Project | Status | Description |
+|----------|--------|-------------|
+| 🛍️ Mall Customer Segmentation | ✅ Completed | Applied K-Means Clustering and Principal Component Analysis (PCA) to segment customers based on Annual Income and Spending Score. Used the Elbow Method and Silhouette Score to determine the optimal number of clusters and visualized customer groups for business interpretation. |
+
+---
+
 # 🔄 Machine Learning Workflow
 
-Most machine learning projects follow a consistent workflow:
+Most machine learning projects in this repository follow a consistent workflow:
 
 1. Data Collection
 2. Data Loading
@@ -158,17 +179,18 @@ Most machine learning projects follow a consistent workflow:
 7. Feature Engineering
 8. Data Transformation
 9. Feature Scaling
-10. Train-Test Split
-11. Model Training
-12. Prediction
-13. Model Evaluation
-14. Result Interpretation
+10. Model Selection
+11. Train-Test Split (for supervised learning)
+12. Model Training
+13. Prediction or Clustering
+14. Model Evaluation
+15. Result Interpretation
 
 ---
 
 # 📚 Skills Demonstrated
 
-## Data Analysis
+## 📊 Data Analysis
 
 - Data Cleaning
 - Missing Value Handling
@@ -180,7 +202,9 @@ Most machine learning projects follow a consistent workflow:
 - Feature Engineering
 - Data Visualization
 
-### Machine Learning
+### 🤖 Machine Learning
+
+#### Supervised Learning
 
 - Linear Regression
 - Logistic Regression
@@ -188,13 +212,24 @@ Most machine learning projects follow a consistent workflow:
 - Random Forest
 - Support Vector Machine (SVM)
 - K-Nearest Neighbors (KNN)
-- Regression Analysis
-- Binary Classification
+
+#### Unsupervised Learning
+
+- K-Means Clustering
+- Principal Component Analysis (PCA)
+- Customer Segmentation
 - Feature Scaling
-- Cross Validation
-- Feature Importance Analysis
+- Elbow Method
+- Silhouette Score
+- Dimensionality Reduction
+
+#### Model Evaluation
+
+- Regression Metrics
 - Confusion Matrix
 - Classification Report
+- Cross Validation
+- Feature Importance Analysis
 - Model Training
 - Model Evaluation
 - Predictive Analytics
@@ -207,15 +242,14 @@ This repository will continue expanding with more advanced Data Science and Mach
 
 ## Machine Learning
 
+- Hierarchical Clustering
+- DBSCAN
+- Gaussian Mixture Models (GMM)
 - Naive Bayes
 - Gradient Boosting
 - XGBoost
 - LightGBM
 - CatBoost
-- K-Means Clustering
-- Hierarchical Clustering
-- DBSCAN
-- Principal Component Analysis (PCA)
 - Ensemble Learning
 
 ## Deep Learning
