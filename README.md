@@ -1,6 +1,6 @@
 # 📊 EDA-DATASCIENCE
 
-A comprehensive collection of **Data Science** and **Machine Learning** projects developed with **Python**. This repository documents my hands-on journey through **Exploratory Data Analysis (EDA)**, **Supervised Learning**, and **Unsupervised Learning** using real-world datasets from domains such as finance, healthcare, housing, retail, and transportation.
+A comprehensive collection of **Data Science** and **Machine Learning** projects developed with **Python**. This repository documents my hands-on journey through **Exploratory Data Analysis (EDA)**, **Supervised Learning**, and **Unsupervised Learning** using real-world datasets from domains such as finance, healthcare, housing, retail, telecommunications, and text analytics.
 
 Each project emphasizes the complete data science workflow—from data preprocessing and visualization to model development, evaluation, and interpretation—using widely adopted Python libraries and best practices.
 
@@ -12,16 +12,16 @@ This repository serves as my personal Data Science portfolio, showcasing project
 
 Projects range from foundational data exploration to predictive modeling and clustering techniques, including:
 
-* 📈 Linear Regression
-* 📊 Logistic Regression
-* 🌳 Decision Tree
-* 🌲 Random Forest
-* 🎯 Support Vector Machine (SVM)
-* 👥 K-Nearest Neighbors (KNN)
-* 🛍️ K-Means Clustering
-* 📉 Principal Component Analysis (PCA)
+- 📈 Linear Regression
+- 📊 Logistic Regression
+- 🌳 Decision Tree
+- 🌲 Random Forest
+- 🎯 Support Vector Machine (SVM)
+- 👥 K-Nearest Neighbors (KNN)
+- 🛍️ K-Means Clustering
+- 📉 Principal Component Analysis (PCA)
 
-As I continue my learning journey, this repository will grow with additional machine learning, deep learning, and real-world analytics projects.
+As I continue my learning journey, this repository will grow with additional machine learning, deep learning, natural language processing, and real-world analytics projects.
 
 ---
 
@@ -29,16 +29,17 @@ As I continue my learning journey, this repository will grow with additional mac
 
 This repository aims to:
 
-* Practice Exploratory Data Analysis (EDA)
-* Develop strong data cleaning and preprocessing skills
-* Analyze datasets from diverse domains
-* Build and evaluate machine learning models
-* Apply feature engineering techniques
-* Compare multiple machine learning algorithms
-* Explore unsupervised learning methods
-* Create meaningful visualizations
-* Strengthen understanding of regression, classification, clustering, and dimensionality reduction
-* Build a practical Data Science portfolio
+- Practice Exploratory Data Analysis (EDA)
+- Develop strong data cleaning and preprocessing skills
+- Analyze datasets from diverse domains
+- Build and evaluate machine learning models
+- Apply feature engineering techniques
+- Compare multiple machine learning algorithms
+- Explore unsupervised learning methods
+- Create meaningful visualizations
+- Prepare structured and text datasets for Machine Learning
+- Strengthen understanding of regression, classification, clustering, and dimensionality reduction
+- Build a practical Data Science portfolio
 
 ---
 
@@ -46,27 +47,28 @@ This repository aims to:
 
 ### Programming
 
-* Python
+- Python
 
 ### Data Analysis
 
-* Pandas
-* NumPy
-* SciPy
+- Pandas
+- NumPy
+- SciPy
 
 ### Visualization
 
-* Matplotlib
-* Seaborn
+- Matplotlib
+- Seaborn
 
 ### Machine Learning
 
-* Scikit-learn
+- Scikit-learn
 
 ### Development Environment
 
-* Jupyter Notebook
-* Google Colab
+- Jupyter Notebook
+- Google Colab
+- VS Code
 
 ---
 
@@ -78,6 +80,11 @@ EDA-DATASCIENCE/
 ├── HOUSING-EDA/
 │   ├── house.csv
 │   ├── Housing_EDA.ipynb
+│   └── README.md
+│
+├── EMAIL_SPAM-EDA/
+│   ├── data.csv
+│   ├── SPAMMAILEDA.ipynb
 │   └── README.md
 │
 ├── NEPSE-EDA/
@@ -106,50 +113,51 @@ EDA-DATASCIENCE/
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-| Project                   | Description                                                                                         |
-| ------------------------- | --------------------------------------------------------------------------------------------------- |
-| 🚢 Titanic EDA            | Explored passenger demographics, handled missing values, and analyzed factors influencing survival. |
-| 🏠 Housing Prices EDA     | Performed data cleaning, feature analysis, outlier detection, and visualization.                    |
-| 📈 NABIL EDA              | Analyzed one year of historical stock data for NABIL Bank.                                          |
-| 📈 NLIC EDA               | Explored historical stock trends for Nepal Life Insurance Company.                                  |
-| 📈 NTC EDA                | Investigated historical stock performance for Nepal Telecom.                                        |
-| 📊 NEPSE Stock Comparison | Compared normalized stock performance across multiple NEPSE companies.                              |
+| Project | Description |
+|---------|-------------|
+| 🚢 Titanic EDA | Explored passenger demographics, handled missing values, and analyzed factors influencing survival. |
+| 🏠 Housing Prices EDA | Performed data cleaning, feature analysis, outlier detection, and visualization. |
+| 📧 Email Spam EDA | Explored an SMS spam dataset, analyzed its structure, encoded spam/ham labels, and prepared a cleaned dataset for future NLP and machine learning applications. |
+| 📈 NABIL EDA | Analyzed one year of historical stock data for NABIL Bank. |
+| 📈 NLIC EDA | Explored historical stock trends for Nepal Life Insurance Company. |
+| 📈 NTC EDA | Investigated historical stock performance for Nepal Telecom. |
+| 📊 NEPSE Stock Comparison | Compared normalized stock performance across multiple NEPSE companies. |
 
 ---
 
 ## 📉 Linear Regression
 
-| Project                         | Description                                                 |
-| ------------------------------- | ----------------------------------------------------------- |
-| 🏠 Housing Price Prediction     | Predicted house prices using multiple numerical features.   |
+| Project | Description |
+|---------|-------------|
+| 🏠 Housing Price Prediction | Predicted house prices using multiple numerical features. |
 | 📈 NABIL Stock Price Prediction | Forecasted next-day closing prices using Linear Regression. |
-| 📈 NLIC Stock Price Prediction  | Built a regression model to predict future stock prices.    |
+| 📈 NLIC Stock Price Prediction | Built a regression model to predict future stock prices. |
 
 ---
 
 ## 📊 Logistic Regression
 
-| Project                             | Description                                                          |
-| ----------------------------------- | -------------------------------------------------------------------- |
+| Project | Description |
+|---------|-------------|
 | 📈 NABIL Stock Direction Prediction | Classified whether the next trading day would close higher or lower. |
-| 🚢 Titanic Survival Prediction      | Predicted passenger survival using Logistic Regression.              |
+| 🚢 Titanic Survival Prediction | Predicted passenger survival using Logistic Regression. |
 
 ---
 
 ## 🌳 Classification Algorithms
 
-| Project                                | Description                                                                   |
-| -------------------------------------- | ----------------------------------------------------------------------------- |
-| 🩺 Breast Cancer Classification        | Compared Decision Tree, Random Forest, SVM, and KNN for tumor classification. |
-| 📈 NABIL Stock Movement Classification | Evaluated multiple classification algorithms for predicting stock movement.   |
+| Project | Description |
+|---------|-------------|
+| 🩺 Breast Cancer Classification | Compared Decision Tree, Random Forest, SVM, and KNN for tumor classification. |
+| 📈 NABIL Stock Movement Classification | Evaluated multiple classification algorithms for predicting stock movement. |
 
 ---
 
 ## 🔍 Clustering & PCA
 
-| Project                        | Description                                                                                                                                                                         |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🛍️ Mall Customer Segmentation | Used K-Means Clustering and PCA to identify customer groups, determine the optimal number of clusters using the Elbow Method and Silhouette Score, and visualize business insights. |
+| Project | Description |
+|---------|-------------|
+| 🛍️ Mall Customer Segmentation | Used K-Means Clustering and PCA to identify customer groups, determine the optimal number of clusters using the Elbow Method and Silhouette Score, and visualize customer segments. |
 
 ---
 
@@ -164,7 +172,7 @@ Most projects follow a structured workflow:
 5. Handling Missing Values
 6. Exploratory Data Analysis (EDA)
 7. Feature Engineering
-8. Data Transformation
+8. Data Transformation & Encoding
 9. Feature Scaling
 10. Model Selection
 11. Train-Test Split
@@ -179,43 +187,44 @@ Most projects follow a structured workflow:
 
 ## 📊 Data Analysis
 
-* Data Cleaning
-* Data Preprocessing
-* Missing Value Handling
-* Exploratory Data Analysis (EDA)
-* Outlier Detection
-* Correlation Analysis
-* Statistical Analysis
-* Feature Engineering
-* Data Visualization
+- Data Cleaning
+- Data Preprocessing
+- Text Data Preprocessing
+- Missing Value Handling
+- Exploratory Data Analysis (EDA)
+- Outlier Detection
+- Correlation Analysis
+- Statistical Analysis
+- Feature Engineering
+- Data Visualization
 
 ### 🤖 Supervised Learning
 
-* Linear Regression
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* Support Vector Machine (SVM)
-* K-Nearest Neighbors (KNN)
+- Linear Regression
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
 
 ### 🔍 Unsupervised Learning
 
-* K-Means Clustering
-* Principal Component Analysis (PCA)
-* Customer Segmentation
-* Feature Scaling
-* Elbow Method
-* Silhouette Score
-* Dimensionality Reduction
+- K-Means Clustering
+- Principal Component Analysis (PCA)
+- Customer Segmentation
+- Feature Scaling
+- Elbow Method
+- Silhouette Score
+- Dimensionality Reduction
 
 ### 📈 Model Evaluation
 
-* Regression Metrics
-* Confusion Matrix
-* Classification Report
-* Cross Validation
-* Feature Importance
-* Predictive Analytics
+- Regression Metrics
+- Confusion Matrix
+- Classification Report
+- Cross Validation
+- Feature Importance
+- Predictive Analytics
 
 ---
 
@@ -223,33 +232,34 @@ Most projects follow a structured workflow:
 
 ## Machine Learning
 
-* Hierarchical Clustering
-* DBSCAN
-* Gaussian Mixture Models (GMM)
-* Naive Bayes
-* Gradient Boosting
-* XGBoost
-* LightGBM
-* CatBoost
-* Ensemble Learning
+- Hierarchical Clustering
+- DBSCAN
+- Gaussian Mixture Models (GMM)
+- Naive Bayes
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- CatBoost
+- Ensemble Learning
 
 ## Deep Learning
 
-* Artificial Neural Networks (ANN)
-* Convolutional Neural Networks (CNN)
-* Recurrent Neural Networks (RNN)
-* Transfer Learning
+- Artificial Neural Networks (ANN)
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN)
+- Transfer Learning
 
 ## Applied Data Science
 
-* Time Series Forecasting
-* Recommendation Systems
-* Interactive Dashboards
-* Healthcare Analytics
-* Retail Analytics
-* Financial Analytics
-* Sports Analytics
-* Climate & Weather Analytics
+- Time Series Forecasting
+- Recommendation Systems
+- Natural Language Processing (NLP)
+- Interactive Dashboards
+- Healthcare Analytics
+- Retail Analytics
+- Financial Analytics
+- Sports Analytics
+- Climate & Weather Analytics
 
 ---
 
@@ -257,7 +267,9 @@ Most projects follow a structured workflow:
 
 The datasets included in this repository are sourced from publicly available resources and are used solely for **educational**, **research**, and **portfolio** purposes.
 
-Each project contains its own **README.md** describing the dataset, methodology, workflow, implementation details, and results.
+Some datasets are obtained from platforms such as **Kaggle**, **GitHub**, and other open-source repositories. Appropriate credit is provided in the individual project **README.md** files whenever applicable.
+
+Each project contains its own **README.md** explaining the dataset source, methodology, workflow, implementation details, and results.
 
 ---
 
@@ -267,15 +279,15 @@ Suggestions, feedback, and improvements are always appreciated.
 
 You are welcome to:
 
-* 🍴 Fork the repository
-* 🐞 Open an Issue
-* 🚀 Submit a Pull Request
+- 🍴 Fork the repository
+- 🐞 Open an Issue
+- 🚀 Submit a Pull Request
 
 ---
 
 # ⭐ Support
 
-If you found this repository useful, consider giving it a **⭐ Star** on GitHub. Your support encourages me to continue building and sharing more Data Science and Machine Learning projects.
+If you found this repository useful, consider giving it a **⭐ Star** on GitHub. Your support motivates me to continue building and sharing more Data Science and Machine Learning projects.
 
 ---
 
@@ -285,7 +297,7 @@ If you found this repository useful, consider giving it a **⭐ Star** on GitHub
 
 **Computer Science Undergraduate | Nepal 🇳🇵**
 
-Currently exploring **Python**, **Data Science**, **Machine Learning**, and **Artificial Intelligence** through practical, project-based learning and real-world datasets.
+Currently exploring **Python**, **Data Science**, **Machine Learning**, and **Artificial Intelligence** through practical, project-based learning using real-world datasets.
 
 ---
 
